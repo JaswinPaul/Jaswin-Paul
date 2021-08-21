@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="assets/css/style.css"> 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 </head>
@@ -675,23 +673,6 @@
     <!--==================== Font awesome ===================-->
     <script src="https://kit.fontawesome.com/1bfecee456.js" crossorigin="anonymous"></script>
 
-    
-   
-    <script>
-        $("#submit-form").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://docs.google.com/forms/u/1/d/e/1FAIpQLScY5sFB6AavP2mJcBihlelyVGrEEXT1meGWpj6meBsW8nG41w/formResponse",
-                data:$("#submit-form").serialize(),
-                method:"post",
-                success:function (response){
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                }
-            })
-        })
-    </script>
 
 </body>
 </html>
