@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaswin Paul</title>
+
+    
+
+    <!--=================== SWIPER CSS==================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=================== CSS =====================-->
+    <link rel="stylesheet" href="assets/css/style.css"> 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+<body>
+    <!---================== HEADER ===================-->
+    <header class="header" id="header">
+        <nav class="nav container-nav">
+            <a href="#" class="nav__logo">Jaswin Paul</a>
+
+            <div class="nav__menu flex-box" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fas fa-home nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-file-alt nav__icon"></i> Skills 
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="fas fa-briefcase nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-image nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-comment-alt nav__icon"></i> Contactme
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+               <!-- Theme change button -->
+               <i class="far fa-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="far fa-window-restore"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+     <!--==================== HOME ====================-->
+     <section class="home section" id="home">
+        <div class="home__container grid">
+            <div class="home__content container-fluid grid">
+                <div class="home__social">
+                    <a href="" target="_blank" class="home__social-icons">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="" target="_blank" class="home__social-icons">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                    <a href="" target="_blank" class="home__social-icons">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                            <image class="home__blob-img" x='45' y='35' href="assets/img/jaswin2.png"/>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hi, I'am Jaswin Paul
+                    </h1>
+                    <h3 class="home__subtitle">Frontend developer</h3>
+                    <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
+                    <a href="#contact" class="button button--flex">
+                        Contact Me <i class="fas fa-comment-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mouse home__scroll-mouse" viewBox="0 0 16 16">
+                        <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z"/>
+                      </svg>
+                    <span class="home__scroll-name">Scroll down</span>
+                    <i class="fas fa-arrow-down home__scroll-arrow"></i>
+                </a>
+            </div>
+        </div>    
+    </section>
+
+
+
+    <!--=================== MAIN ======================-->
+    <main class="main">
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Indroduction</span>
+            
+            <div class="about__container container grid">
+                <img src="assets/img/me.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">Web developer, with extensive knowledge and years of experience,
+                         working in web technologies and Ui / Ux design, delivering quality work.</p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name"> Freelance <br> work</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="" class="button button--flex">
+                            Download CV<i class="fas fa-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section-skills" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">Css</span>
+                    <span class="skills__name">Javascript</span>
+                    <span class="skills__name">Bootstrap</span>
+                    
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Figma</span>
+                    <span class="skills__name">Pixlr E</span>
+                    <span class="skills__name">Photoshop</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="assets/img/skill.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <!--==================== QUALIFICATION ====================-->
+        <!--<section class="qualification section">
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+        </section>-->
+
+
+
+
+
+
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+            
+            <div class="services__container container grid">
+                <!--========================= SERVICES 1 =========================-->
+                <div class="services__content">
+                    <div>
+                        <i class="material-icons services__icon">view_quilt</i>
+                        <h3 class="services__title">Ui/Ux <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="fas fa-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="fas fa-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--========================= SERVICES 2 =========================-->
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-laptop-code services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="fas fa-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                            <i class="fas fa-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>I develop static websites.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Responsive websites.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Custom Designs.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--========================= SERVICES 3 =========================-->
+                 <div class="services__content">
+                    <div>
+                        <i class="fas fa-robot services__icon"></i>
+                        <h3 class="services__title">AI <br> Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="fas fa-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">AI <br> Developer</h4>
+                            <i class="fas fa-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>I build AI functionality into software applications..</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Inteligent Machines development.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>I program systems that will change to suit the business's needs.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Develops system based on the data collected and analyzed.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--========================== PORTFOLIO 1 ========================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components 
+                                and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <!--========================== PORTFOLIO 2 ========================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Brand Design</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components 
+                                and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <!--========================== PORTFOLIO 3 ========================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online Store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components 
+                                and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Add Arrows-->
+                <div class="swiper-button-next">
+                    <i class="fas fa-chevron-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-chevron-left swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <!--<div class="swiper-pagination"></div>-->
+            </div>
+
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section-p">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me 
+                            <i class="fas fa-comment-alt project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <!--<img src="assets/img/jaswin.png" alt="" class="project__img">-->
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My client saying</span>
+
+            <div class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--===================== TESTIMONIAL 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/testimonial.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Sooraj</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I get a good impression, He carry out my project with all the 
+                            possible quality and attention and support 24 hours a day.
+                        </p>
+                    </div>
+
+                    <!--===================== TESTIMONIAL 2 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/testimonial.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Nithin</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">I would highly recommend Jaswin Paul. He is great to work with.
+                        </p>
+                    </div>
+
+                    <!--===================== TESTIMONIAL 3 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/testimonial.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Prem</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">My site is beautiful! Jaswin is an extremely talented web designer and also very responsive.
+                        </p>
+                    </div>
+
+
+                </div>
+                <!-- Add pagination-->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+          <div class="contact-border">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+
+                    <div class="contact__information">
+                        <i class="far fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">jaswinpaulhere@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="fas fa-map-marker-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">India - Kerala,Angamaly</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="fab fa-telegram-plane contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Telegram</h3>
+                            <span class="contact__subtitle">@Kukkuuuuuuuupaul</span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <form method="POST" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScY5sFB6AavP2mJcBihlelyVGrEEXT1meGWpj6meBsW8nG41w/formResponse" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="Name" class="contact__label">Name</label>
+                            <input type="text" class="contact__input" required name="entry.978728668" value>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input" required name="entry.1136866047" value>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input" required name="entry.1422478120" value>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="entry.1290670209" id="" cols="0" rows="7" class="contact__input" value></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button--flex button sent-button">
+                            <h3 class="sent-text">Sent Message</h3>
+                            <i class="material-icons button__icon">send</i>
+                        </button>
+                    </div>
+                      
+                </form>
+
+            </div>
+
+          </div>
+
+        </section> 
+    </main>
+
+
+    <!--==================== FOOTER =====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Jaswin Paul</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/profile.php?id=100071431316109" target="blank" class="footer__social">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/jaswinpaul/" target="blank" class="footer__social">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="" target="blank" class="footer__social">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Jaswin Paul. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ===================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="material-icons scrollup__icon">arrow_upward</i>
+    </a>
+
+    <!--=================== SWIPER JS =====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+
+    <!--==================== MAIN JS ======================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--==================== Font awesome ===================-->
+    <script src="https://kit.fontawesome.com/1bfecee456.js" crossorigin="anonymous"></script>
+
+    
+   
+
+
+</body>
+</html>
