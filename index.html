@@ -581,7 +581,7 @@
                     
                 </div>
 
-                <form method="POST" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScY5sFB6AavP2mJcBihlelyVGrEEXT1meGWpj6meBsW8nG41w/formResponse" class="contact__form grid">
+                <form id="submit-form" action="" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="Name" class="contact__label">Name</label>
@@ -675,7 +675,25 @@
 
     
    
-
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://docs.google.com/forms/u/1/d/e/1FAIpQLScY5sFB6AavP2mJcBihlelyVGrEEXT1meGWpj6meBsW8nG41w/formResponse",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 
 </body>
 </html>
